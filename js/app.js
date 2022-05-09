@@ -10,7 +10,7 @@ menuLinks.style.display = 'none';
 btn.addEventListener('click', () => {
     if (menuLinks.style.display == 'none') {
         dropDown.src = 'icons/x-mark.svg';
-        menuLinks.style.cssText = 'display: flex; background-color: #1a1a1a;';
+        menuLinks.style.cssText = 'display: flex; background-color: rgba(26, 26, 26, 0.92);';
     } else {
         dropDown.src = 'icons/bars.svg';
         menuLinks.style.cssText = 'display: none; background-color: none;';
