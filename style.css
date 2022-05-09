@@ -32,6 +32,11 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+nav {
+  position: fixed;
+  z-index: 2;
+}
+
 @media screen and (min-width: 768px) {
 
   /* NAVIGATION */
