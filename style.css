@@ -93,6 +93,7 @@ nav {
   }
 
   .socials img {
+    cursor: pointer;
     height: calc(25px / 2 + 1vw);
     width: calc(25px / 2 + 1vw);
   }
