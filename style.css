@@ -1,0 +1,250 @@
+/* RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-color: #f38320 transparent;
+  scrollbar-width: auto;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f38320;
+  border-radius: 5px;
+  border: 1.5px solid transparent;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('fonts/Quicksand-Light.ttf') format('truetype'), url('fonts/Quicksand-Medium.ttf') format('truetype');
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: "Quicksand", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+
+  /* NAVIGATION */
+  .menu-mobile {
+    display: none;
+  }
+
+  .menu-desktop {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    width: 15vw;
+  }
+
+  .logo {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo img {
+    height: calc(80px / 2 + 1vw);
+    width: calc(80px / 2 + 1vw);
+  }
+
+  .links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .links a {
+    color: #ffffff;
+    font-size: calc(16px / 2 + 1vw);
+    text-decoration: none;
+    text-transform: capitalize;
+    transform: rotate(-90deg);
+  }
+
+  .socials {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .socials img {
+    height: calc(25px / 2 + 1vw);
+    width: calc(25px / 2 + 1vw);
+  }
+
+  /* HEADER */
+  header {
+    height: 100vh;
+    width: 85vw;
+    padding: 10% 0 0 25%;
+  }
+
+  .name {
+    color: #ffffff;
+    font-size: calc(10px * 3 + 1vw);
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+
+  .adj {
+    color: #ffffff;
+    font-size: calc(24px * 3 + 1vw);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .plus {
+    color: #f38320;
+    font-size: calc(14px * 3 + 1vw);
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  #typeWrite {
+    color: #ffffff;
+    text-transform: capitalize;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  /* NAVIGATION */
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .top {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .top button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .top img {
+    height: calc(80px / 2 + 1vw);
+    width: calc(80px / 2 + 1vw);
+  }
+
+  .bottom {
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-around;
+    width: 70%;
+  }
+
+  .links a {
+    color: #ffffff;
+    font-size: calc(16px + 1vw);
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  .socials {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    justify-content: space-around;
+    width: 70%;
+  }
+
+  .socials img {
+    height: calc(25px / 2 + 1vw);
+    width: calc(25px / 2 + 1vw);
+  }
+
+  /* HEADER */
+  header {
+    height: 100vh;
+    padding: 45% 0 0 8%;
+    width: 85vw;
+  }
+
+  .name {
+    color: #ffffff;
+    font-size: calc(10px * 2+ 1vw);
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+
+  .adj {
+    color: #ffffff;
+    font-size: calc(24px * 2 + 1vw);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .plus {
+    color: #f38320;
+    font-size: calc(14px * 2 + 1vw);
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  #typeWrite {
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+}
+
+.cardus {
+  background-color: rgba(36, 36, 36, 0.95);
+}
+
+model-viewer {
+  height: 16rem;
+  width: 16rem; 
+}
+model-viewer#interaction {
+  --poster-color: transparent;
+}
