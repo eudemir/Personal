@@ -1,5 +1,6 @@
 // NAVIGATION
 
+const navC = document.querySelector('#navC');
 const btn = document.querySelector('.btn');
 const dropDown = document.querySelector('#dropdown');
 const menuLinks = document.querySelector('.bottom');
@@ -9,11 +10,13 @@ menuLinks.style.display = 'none';
 
 btn.addEventListener('click', () => {
     if (menuLinks.style.display == 'none') {
+        navC.style.backgroundColor = 'rgba(26, 26, 26, 0.92)';
         dropDown.src = 'icons/x-mark.svg';
-        menuLinks.style.cssText = 'display: flex; background-color: rgba(26, 26, 26, 0.92);';
+        menuLinks.style.display = 'flex';
     } else {
+        navC.style.backgroundColor = 'transparent';
         dropDown.src = 'icons/bars.svg';
-        menuLinks.style.cssText = 'display: none; background-color: none;';
+        menuLinks.style.display = 'none';
     }
 });
 
