@@ -1,5 +1,15 @@
-// NAV
+// RESET 
+
+window.addEventListener('resize', function () {
+    if (maxW.matches) {
+        "use strict";
+        window.location.reload();
+    }
+});
+
 const maxW = window.matchMedia("(max-width: 767px)");
+
+// NAV
 const menuAc = document.querySelector('#nav');
 const btn = document.querySelector('#hamburger');
 const dropDown = document.querySelector('.dropdown');
@@ -13,13 +23,11 @@ if (maxW.matches) {
 btn.addEventListener('click', () => {
     if (menuLinks.style.display == 'none') {
         menuLinks.style.display = 'flex';
-        menuAc.style.backgroundColor = 'rgba(26, 26, 26, .92';
         menuAc.style.height = '100vh';
         dropDown.src = 'icons/x-mark.svg';
     } else {
         menuLinks.style.display = 'none';
         menuAc.style.height = '15vh';
-        menuAc.style.backgroundColor = 'none';
         dropDown.src = 'icons/bars.svg';
     }
 })
