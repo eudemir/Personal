@@ -2,10 +2,6 @@
 
 const maxW = window.matchMedia("(max-width: 767px)");
 
-if (maxW.matches) {
-    window.location.reload();
-}
-
 // NAV
 const menuAc = document.querySelector('#nav');
 const btn = document.querySelector('#hamburger');
