@@ -175,7 +175,7 @@ header {
   flex-direction: column;
   height: 150vh;
   justify-content: space-around;
-  margin-left: 15%;
+  margin: 0 auto;
   width: 85vw;
 }
 
@@ -279,7 +279,6 @@ model-viewer#interaction {
   /* SERVICES */
   .services {
     height: 100vh;
-    margin: 0;
   }
 
   .card {
