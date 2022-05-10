@@ -178,16 +178,16 @@ header {
   height: 150vh;
   justify-content: space-around;
   margin: 0 auto;
-  width: 85vw;
+  width: 100vw;
 }
 
 .card {
   align-items: center;
   display: flex;
   flex-direction: column-reverse;
-  height: calc(211px * 2 + 1vh);
+  height: calc(211px * 3 + 1vh);
   justify-content: space-around;
-  width: calc(100px * 2 + 1vw);
+  width: calc(100px * 3 + 1vw);
 }
 
 .text {
@@ -280,6 +280,7 @@ model-viewer#interaction {
   /* SERVICES */
   .services {
     height: 100vh;
+    width: 15vw;
   }
 
   .card {
