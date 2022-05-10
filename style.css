@@ -56,6 +56,7 @@ a {
 /* NAV LAYOUT */
 nav {
   align-items: center;
+  background-color: rgba(26, 26, 26, .98);
   display: flex;
   flex-direction: column;
   height: 15vh;
@@ -63,6 +64,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 20;
 }
 
 .top {
@@ -221,7 +223,6 @@ model-viewer#interaction {
     width: 100%;
     right: 0;
     position: absolute;
-    z-index: -1;
   }
 
   /* NAV LAYOUT */
