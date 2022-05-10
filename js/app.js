@@ -1,13 +1,5 @@
-// RESET 
-
-window.addEventListener('resize', function () { 
-    "use strict";
-    window.location.reload(); 
-});
-
-const maxW = window.matchMedia("(max-width: 767px)");
-
 // NAV
+const maxW = window.matchMedia("(max-width: 767px)");
 const menuAc = document.querySelector('#nav');
 const btn = document.querySelector('#hamburger');
 const dropDown = document.querySelector('.dropdown');
