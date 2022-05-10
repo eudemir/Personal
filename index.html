@@ -11,9 +11,8 @@
 </head>
 
 <body>
-  <script src="js/three.min.js"></script>
-  <script src="js/vanta.net.min.js"></script>
-  <section id="backGround"></section>
+  <script src="js/three.js"></script>
+  <script src="js/background.js"></script>
   <nav id="nav">
     <section class="top">
       <button><img src="icons/logo.svg" alt="Logo" class="logo"></button>
@@ -32,37 +31,48 @@
       </section>
     </section>
   </nav>
-  <script src="js/typed.js"></script>
+  <script src="js/typewriter.js"></script>
   <header id="header">
     <h3 class="name">egemen umut demir</h3>
     <h2 class="adj">designer</h2>
     <h3 class="plus">+ <span id="typeWrite" class="typewrite"></span></h3>
   </header>
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-  <section id="services" class="services">
-    <section class="card">
-      <section class="text">
-        <h3>web design & development</h3>
-        <br>
-        <p>Crafting Custom high-end Website design driven from smart brand-centric and results driven strategies is my
-          specialty. From Corporate website development, Ecommerce, custom Web applications and product configurators
-          my code is intelligent.</p>
+  <section class="a">
+    <section class="b">
+      <section class="c">
+        <section class="d">
+          <model-viewer id="interaction" loading="eager" reveal="interaction" bounds="tight"
+            src="models/paper.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls disable-zoom
+            environment-image="neutral" poster="models/paper.png" shadow-intensity="1" autoplay>
+        </section>
+        <section class="e">
+          <h3 class="f">Brand Strategy</h3>
+          <section class="g">
+            <p>Tap into a Eudesign Brandtender if your brand is thirsty for a potent brand strategy, story, or visual style guide.</p>
+          </section>
+        </section>
       </section>
-      <model-viewer id="interaction" loading="eager" reveal="interaction" bounds="tight" src="models/laptop-phone.glb"
-        ar ar-modes="webxr scene-viewer quick-look" camera-controls disable-zoom environment-image="neutral"
-        poster="models/poster.png" shadow-intensity="1" autoplay>
     </section>
-    <section class="card">
-      <section class="text">
-        <h3>web design & development</h3>
-        <br>
-        <p>Crafting Custom high-end Website design driven from smart brand-centric and results driven strategies is my
-          specialty. From Corporate website development, Ecommerce, custom Web applications and product configurators
-          my code is intelligent.</p>
+    <section class="b">
+      <section class="c">
+        <section class="d">
+          <model-viewer id="interaction" loading="eager" reveal="interaction" bounds="tight"
+            src="models/laptop-phone.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls disable-zoom
+            environment-image="neutral" poster="models/poster.png" shadow-intensity="1" autoplay>
+        </section>
+          <section class="e">
+            <h3 class="f">Web Design & Development</h3>
+            <section class="g">
+              <p>Crafting Custom high-end Website design driven from smart brand-centric and results driven strategies
+                is
+                my
+                specialty. From Corporate website development, Ecommerce, custom Web applications and product
+                configurators
+                my code is intelligent.</p>
+            </section>
+          </section>
       </section>
-      <model-viewer id="interaction" loading="eager" reveal="interaction" bounds="tight" src="models/laptop-phone.glb"
-        ar ar-modes="webxr scene-viewer quick-look" camera-controls disable-zoom environment-image="neutral"
-        poster="models/poster.png" shadow-intensity="1" autoplay>
     </section>
   </section>
   <script src="js/app.js"></script>
