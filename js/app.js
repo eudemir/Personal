@@ -1,5 +1,8 @@
-// NAV
+// RESET 
+
 const maxW = window.matchMedia("(max-width: 767px)");
+
+// NAV
 const menuAc = document.querySelector('#nav');
 const btn = document.querySelector('#hamburger');
 const dropDown = document.querySelector('.dropdown');
@@ -39,3 +42,16 @@ const typeWrite = new Typed('#typeWrite', {
     showCursor: false,
     loop: true
 });
+
+// BACK
+
+VANTA.NET({
+    el: "#backGround",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0x1a1a1a,
+    color: 0xf38320
+})
