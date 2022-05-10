@@ -1,6 +1,7 @@
 // RESET 
 
 const maxW = window.matchMedia("(max-width: 767px)");
+const minW = window.matchMedia("(min-width: 768px)");
 
 // NAV
 const menuAc = document.querySelector('#nav');
@@ -11,6 +12,10 @@ dropDown.src = 'icons/bars.svg';
 
 if (maxW.matches) {
     menuLinks.style.display = 'none';
+}
+
+if (minW.matches) {
+    menuLinks.style.display = 'flex';
 }
 
 btn.addEventListener('click', () => {
