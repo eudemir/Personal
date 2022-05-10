@@ -1,12 +1,10 @@
 // RESET 
 
-if (maxW.matches) {
-    () => {
-        window.location.reload();
-    }
-}
-
 const maxW = window.matchMedia("(max-width: 767px)");
+
+if (maxW.matches) {
+    window.location.reload();
+}
 
 // NAV
 const menuAc = document.querySelector('#nav');
@@ -29,7 +27,7 @@ btn.addEventListener('click', () => {
         menuAc.style.height = '15vh';
         dropDown.src = 'icons/bars.svg';
     }
-})
+});
 
 // HEADER
 
@@ -52,7 +50,7 @@ VANTA.NET({
     scaleMobile: 1.00,
     backgroundColor: 0x1a1a1a,
     color: 0xf38320
-})
+});
 
 if (maxW.matches) {
     VANTA.NET({
@@ -65,5 +63,5 @@ if (maxW.matches) {
         backgroundColor: 0x1a1a1a,
         color: 0xf38320,
         spacing: 20.00
-    })
+    });
 }
