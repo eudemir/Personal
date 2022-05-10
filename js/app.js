@@ -1,5 +1,10 @@
 // RESET 
 
+window.addEventListener('resize', function () { 
+    "use strict";
+    window.location.reload(); 
+});
+
 const maxW = window.matchMedia("(max-width: 767px)");
 
 // NAV
@@ -8,12 +13,6 @@ const btn = document.querySelector('#hamburger');
 const dropDown = document.querySelector('.dropdown');
 const menuLinks = document.querySelector('.bottom');
 dropDown.src = 'icons/bars.svg';
-
-function refresh() {
-    if (maxW.matches) {
-        window.location.reload();
-    }
-}
 
 if (maxW.matches) {
     menuLinks.style.display = 'none';
