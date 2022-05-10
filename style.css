@@ -197,13 +197,13 @@ header {
 
 .text h3 {
   color: #ffffff;
-  font-size: calc(.5em + 1vw);
+  font-size: calc(1.5em + 1vw);
   text-transform: capitalize;
 }
 
 .text p {
   color: #ffffff;
-  font-size: calc(.3em + 1vw);
+  font-size: calc(1em + 1vw);
 }
 
 model-viewer {
