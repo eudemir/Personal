@@ -55,3 +55,17 @@ VANTA.NET({
     backgroundColor: 0x1a1a1a,
     color: 0xf38320
 })
+
+if (maxW.matches) {
+    VANTA.NET({
+        el: "#backGround",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0x1a1a1a,
+        color: 0xf38320,
+        spacing: 20.00
+    })
+}
