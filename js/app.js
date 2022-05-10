@@ -1,11 +1,10 @@
 // RESET 
 
-window.addEventListener('resize', function () {
-    if (maxW.matches) {
-        "use strict";
+if (maxW.matches) {
+    () => {
         window.location.reload();
     }
-});
+}
 
 const maxW = window.matchMedia("(max-width: 767px)");
 
