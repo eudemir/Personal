@@ -49,7 +49,7 @@ a {
   height: 50vh;
   width: 100vw;
   right: 0;
-  position: absolute;
+  position: fixed;
   z-index: -1;
 }
 
@@ -218,11 +218,8 @@ model-viewer#interaction {
 @media (min-width: 768px) {
 
   #backGround {
-    bottom: 0;
     height: 70vh;
     width: 100%;
-    right: 0;
-    position: absolute;
   }
 
   /* NAV LAYOUT */
