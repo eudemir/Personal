@@ -44,6 +44,15 @@ a {
   text-decoration: none;
 }
 
+#backGround {
+  bottom: 0;
+  height: 50vh;
+  width: 100vw;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 /* NAV LAYOUT */
 nav {
   align-items: center;
@@ -158,6 +167,15 @@ header {
 }
 
 @media (min-width: 768px) {
+
+  #backGround {
+    bottom: 0;
+    height: 70vh;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
 
   /* NAV LAYOUT */
   nav {
