@@ -45,9 +45,9 @@ a {
 }
 
 /* NAV LAYOUT */
-nav { 
+nav {
   align-items: center;
-  display: flex;  
+  display: flex;
   flex-direction: column;
   height: 15vh;
   justify-content: space-around;
@@ -127,7 +127,7 @@ header {
   padding: 0 10% 0 10%;
 }
 
-/* HEADER STYLES */ 
+/* HEADER STYLES */
 
 .name {
   color: #ffffff;
@@ -135,18 +135,21 @@ header {
   font-weight: 300;
   text-transform: capitalize;
 }
+
 .adj {
   color: #ffffff;
   font-size: calc(2.8em + 1vw);
   font-weight: 300;
   text-transform: uppercase;
 }
+
 .plus {
   color: #f38320;
   font-size: calc(1.5em + 1vw);
   font-weight: 300;
   text-transform: capitalize;
 }
+
 .typewrite {
   color: #ffffff;
   font-size: calc(1em + 1vw);
@@ -193,5 +196,18 @@ header {
     margin: 0 0 0 15%;
     width: 85%;
     padding: 10% 0 0 5%;
+  }
+
+  /* HEADER STYLES */
+  .name {
+    font-size: calc(1.5em + 1vw);
+  }
+
+  .adj {
+    font-size: calc(4em + 1vw);
+  }
+
+  .plus {
+    font-size: calc(1.5em + 1vw);
   }
 }
